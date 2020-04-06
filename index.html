@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>    
+</head>
+<body>
+    <script>
+        alert('В каждом случае - a++; alert(a) сначала выполняется вывод, затем инкрементирование, при ++a; alert(a) - сначала инкрементирование, затем вывод')
+        var a = 2;
+        var x = 1 + (a *= 2); alert(x)
+    </script>
+    <script>
+        var a = 2, b = 5;
+        if (a > 0 && b > 0){
+            var result = b - a;
+            alert(result);
+        }        
+        if (a < 0 && b < 0){
+            var result = a * b;
+            alert(result);
+        }
+        if (a < 0 && b >= 0 || a >= 0 && b < 0 ){
+            var result = a + b
+        }              
+    </script>
+    <script> 
+        function add(One, Two){
+            var result = digitOne + digitTwo;
+            return result;
+        }
+        function subtract(One, Two){
+            var result = digitOne - digitTwo;
+            return result;
+        }
+        function division(One, Two){
+            var result = digitOne : digitTwo;
+            return result;
+        }
+        function multiplication(One, Two){
+            var result = digitOne * digitTwo;
+            return result;
+        }
+		
+		function mathOperation(arg1, arg2, operation){
+			switch(operation){
+				case 'add':
+					var result = add(arg1, arg2);
+					alert(result);
+					break;					
+				case 'subtract':
+					var result = subtract(arg1, arg2);
+					alert(result);
+					break;					
+				case 'division':
+					var result = division(arg1, arg2);
+					alert(result);
+					break;	
+				case 'multiplication':
+					var result = multiplication(arg1, arg2);
+					alert(result);
+					break;	
+			}				
+		}
+		
+		var firstNumber = prompt('Введите первое число');
+		var secondNumber = prompt('Введите второе число');		
+		var operations = prompt('Выберите операцию');
+		
+		mathOperation(firstNumber, secondNumber, operations)
+		
+    </script>
+</body>
+</html>
