@@ -1,0 +1,131 @@
+.basket	{
+	width: 910px;
+	height: 400px;
+}
+
+.basket * {
+	float: left;
+}
+
+.goods_buy {
+	width: 450px;
+	height: 400px;
+	margin-right: 5px;
+}
+
+.amount {
+	width: 450px;
+	height: 400px;
+	margin-left: 5px;
+}
+
+.goods {
+	width: 910px;
+	height: 400px;
+	text-align: center;
+}
+
+.goods>.good{
+	display: inline-block;
+	margin-top: 100px;
+}
+
+.good {
+	width: 200px;
+	height: 200px;	
+	border-radius: 10px;
+}
+
+.good>button {
+	width: 145px;
+	height: 25px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.good>button:hover {
+	color: gray;
+}
+
+.good >span {
+	display: inline-block;	
+	padding-top: 10px;
+	font-family: sans-serif
+}
+
+.good >p {
+	margin: 0;
+}
+
+.good img {
+	padding-top: 10px;
+}
+
+.amount .prices {
+	display: block;
+	height: 340px;
+	width: 401px;
+	background-color: red;
+}
+
+.amount .calculator {
+	display: block;
+	height: 50px;
+	width: 400px;
+	background-color: dodgerblue;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.calculator span {
+	padding-top: 15px;
+	padding-left: 20px;	
+}
+
+.tovar {
+	display: block;	
+	width: 400px;
+	height: 50px;	
+	background-color: brown;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.tovar .colvo {
+	height: 50px;
+	width: 50px;
+	float: right;	
+}
+
+.tovar_2  {
+		display: block;	
+	width: 380px;
+	height: 50px;	
+	background-color: brown;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.tovar_2 .colvo {
+	height: 50px;
+	width: 50px;
+	float: right;
+}
+
+.tovar_name {
+	padding: 15px;
+}
+
+.tovar .span {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.colvo {
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+
+
